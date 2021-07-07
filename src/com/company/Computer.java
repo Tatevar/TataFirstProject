@@ -20,16 +20,17 @@ package com.company;
 import java.util.Scanner;
 
 public class Computer {
+    int resource = 5;
     public static void display() {
         int ram = 90;
         int cpu = 30;
         int hdd = 876;
-        String turnOnOff = "yes";
+
         System.out.println(cpu);
         System.out.println(hdd);
         System.out.println(ram);
-        System.out.println(turnOnOff);
         System.out.println();
+
     }
     public static void  turnOn (){
 
