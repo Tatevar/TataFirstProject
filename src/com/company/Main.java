@@ -7,10 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
 for ( int i = 0 ; i <= Computer.resource; i++){
-        Computer.turningOn();
+    Computer.turnOn();
         }
         Computer.display();
-        Computer.turnOn();
         Computer.turnOff();
     }
 }

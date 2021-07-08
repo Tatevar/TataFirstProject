@@ -50,14 +50,9 @@ public class Computer {
 
         else if (UserNumber != UnknownNumber)
             System.out.println("сбой, " + "Ваш компьютер сгорел ");
-
-
-    }
-    public static void turningOn() {
-
-    resource--;
+        resource--;
         if (resource == 0);
-            System.out.println("вы не можете включить комп  ");
+        System.out.println("вы не можете включить комп  ");
     }
 
     public static void turnOff() {
