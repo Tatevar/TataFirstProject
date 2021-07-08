@@ -6,24 +6,24 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Computer computer = new Computer();
-
+for ( int i = 0 ; i <= Computer.resource; i++){
+        Computer.turningOn();
+        }
         Computer.display();
         Computer.turnOn();
         Computer.turnOff();
-        int i = 10;
-        while (i > computer.resource)
-            i--;
-        System.out.println("Computer is turned on ");
-        if (i < computer.resource) ;
-        System.out.println("Computer can't be turned on ");
     }
 }
 
 
+/*
+        Уменьшать ресурс сам надо, не нужно никаких циклов делать
+
+        Тоест вызываете метод. Turnon  внутри делаете resours--
+
+        Цикл можно в мейне написать где вы только computer.turnon делать будете
 
 
+        И проверка что resours ==0 тоже внутри. Turnon
 
-
-
-
+ */
