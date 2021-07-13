@@ -57,6 +57,7 @@ public class Computer {
 
     public static void turnOff() {
 
+
         int UnknownNumber, UserNumber;
         Scanner input = new Scanner(System.in);
 
@@ -67,7 +68,6 @@ public class Computer {
         System.out.print("Введите ваше число: ");
 
         UserNumber = input.nextInt();
-
         if (UserNumber == UnknownNumber)
             System.out.println(" Ваш компьютер выключен");
 
