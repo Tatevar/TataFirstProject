@@ -10,6 +10,7 @@ public class StringTask3 {
         for (String firstText : initialText) {
             System.out.print(firstText + " ");
         }
+
         for (String firstText : initialText) {
             if (str3.thePalindrome(firstText) == true)
                 str.append(firstText + " ").toString();
@@ -21,6 +22,7 @@ public class StringTask3 {
         public boolean thePalindrome(String str){
         StringBuilder reverse =  new StringBuilder(str).reverse();
         String revThis = reverse.toString();
+
         if (str.equalsIgnoreCase(revThis)) {
             return true;
         }
